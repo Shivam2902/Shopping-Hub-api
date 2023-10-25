@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "add_to_carts",
+  "info": {
+    "singularName": "add-to-cart",
+    "pluralName": "add-to-carts",
+    "displayName": "Add_to_cart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "add_to_cart"
+    }
+  }
+}

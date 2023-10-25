@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_custom_custom_fields",
+  "info": {
+    "displayName": "Custom field",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "colour": {
+      "type": "string",
+      "required": false
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "option": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Black",
+        "White",
+        "Blue"
+      ]
+    }
+  }
+}
